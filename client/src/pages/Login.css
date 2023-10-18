@@ -1,0 +1,293 @@
+@import url('https://fonts.cdnfonts.com/css/chirp-2');
+@import url('https://fonts.cdnfonts.com/css/hero-4');
+
+
+.login-container{
+    background-image: url("./images/blackAbstract5.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+    height:100vh;
+}
+
+
+
+.toptab{
+    text-align: center;
+    font-family: 'Hero', sans-serif;
+    color:rgba(182, 182, 182, 0.559);
+  
+}
+
+#signIn {
+    color: white;
+    margin-bottom: 10px;
+    
+}
+
+.login{
+    font-family: 'Hero', sans-serif;
+    text-align: center;
+    background-color: #28292E;
+    opacity: 85%;
+    color: white;
+   
+    box-shadow: 3px 3px black;
+    border-radius: 10px;
+    margin: 10em 10em 10em 10em;
+    padding: 1em 1em 15em 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    min-width: 300px;
+    transition: 0.5s;
+    }
+
+.boxing{
+    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    color: blue;
+}
+
+
+
+
+.submit{
+    font-family: 'Hero', sans-serif;
+    margin-top: 15px;
+    border-radius: 50px;
+    width: 75%;
+    height: 30px;
+   
+    background-color:  #232429;
+    color:rgba(255, 255, 255, 0.559); 
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+    color: white;
+    
+}
+
+.decor{
+    text-decoration: none;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 200px;
+    border: none;
+    
+}
+
+a {
+    color:rgba(255, 255, 255, 0.559); 
+}
+
+a:link {
+    color: red;
+  }
+  
+  
+  a:visited {
+    color:rgba(182, 182, 182, 0.559);
+  }
+  
+ 
+  a:hover {
+    color: hotpink;
+  }
+  
+  
+  a:active {
+    color: blue;
+  }
+
+.varr{
+    padding:0.8em;
+    border-radius: 5px;
+    background-color:  rgba(128, 128, 128, 0.001);
+    width: 75%;
+   
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+    color: white;
+
+}
+
+::placeholder { 
+    color:rgba(255, 255, 255, 0.559); 
+    font-family: 'Hero', sans-serif;
+    opacity: 1; 
+  }
+
+
+#forgotP{
+    text-align: right;
+    margin-right: 20px;
+    color: rgba(0, 0, 255, 0.601);
+    font-weight: bolder;
+    opacity: 65%;
+}
+
+#orSign{
+    margin-top: 20px;
+    color:rgba(255, 255, 255, 0.559); 
+    font-family: 'Hero', sans-serif;
+
+}
+
+#google{
+    width: 200px;
+    height: 45px;
+}
+
+.LOGO{
+    width: 360px;
+    height: 200px;
+    margin-top: auto;
+    margin-bottom: -150px;
+    transition: 0.5s;
+}
+
+  
+  select {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  select:focus {
+    outline: none;
+    border-color: #0077ff;
+    box-shadow: 0 0 0 0.125rem rgba(0, 119, 255, 0.25);
+  }
+
+  .login-status {
+    color: red;
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 16px;
+  }
+
+  .popup-buttons {
+    transition-duration: 0.4s;
+    padding: 8px 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .buttonsHover:hover {
+    background-color: #8693d328;
+    color: #86d4f5;
+  }
+
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .register-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: arial;
+  }
+  
+  .register-form input[type="text"],
+  .register-form select {
+    padding: 8px;
+  border-radius: 5px;
+  border: 2px solid black;
+  font-size: 16px;
+  outline: none;
+  margin-left: auto;
+  margin-right: auto;
+  
+    margin-bottom: 10px;
+  }
+  
+  
+  .register-form button {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    border: 2px solid black;
+    font-weight: bold;
+  }
+  
+  .register-form button:hover {
+    background-color: #0069d9;
+  }
+  
+  .popup-buttons:hover {
+    background-color: #0069d9;
+  }
+  
+  .buttonsHover {
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .buttonsHover:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  
+  .password-input {
+    position: relative;
+  }
+  
+  .password-toggle {
+    position: absolute;
+    right: 51px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .varr[type="password"] {
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+  
+  .varr[type="password"]::placeholder {
+    font-size: 14px;
+    letter-spacing: normal;
+  }
+  
+  .password-toggle {
+    color: #888;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .password-toggle.visible {
+    color: #555;
+  }
+  
+  .password-toggle:focus {
+    outline: none;
+  }
+  

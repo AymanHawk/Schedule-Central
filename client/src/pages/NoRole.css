@@ -1,0 +1,25 @@
+@import url("https://fonts.cdnfonts.com/css/chirp-2");
+@import url("https://fonts.cdnfonts.com/css/hero-4");
+
+.norole {
+  text-align: center;
+  display: flex;
+  padding: 32px;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Hero", sans-serif;
+  color: rgb(255, 255, 255);
+
+  background-image: url("./images/blackAbstract5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+}
+
+.logoutNorole {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
